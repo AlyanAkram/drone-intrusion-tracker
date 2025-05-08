@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drone Sighting Logger</title>
+</head>
+<body>
+    <h2>🛰️ Log a Drone Sighting</h2>
+    <form action="/submit" method="post">
+        <label>Date:</label><input type="date" name="date" required><br><br>
+        <label>Time:</label><input type="time" name="time" required><br><br>
+        <label>Location:</label><input type="text" name="location" required><br><br>
+        <label>Latitude:</label><input type="text" name="latitude" required><br><br>
+        <label>Longitude:</label><input type="text" name="longitude" required><br><br>
+        <label>Drone Type:</label><input type="text" name="drone_type" required><br><br>
+        <label>Source:</label><input type="text" name="source" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <a href="/map">📍 View Drone Map</a>
+</body>
+</html>

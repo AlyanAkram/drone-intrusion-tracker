@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_28b4ae7263003af48fd43cc6abb9e683 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_28b4ae7263003af48fd43cc6abb9e683" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_28b4ae7263003af48fd43cc6abb9e683 = L.map(
+                "map_28b4ae7263003af48fd43cc6abb9e683",
+                {
+                    center: [30.3753, 69.3451],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8ab8f4b17b47146b7376d744d82c3717 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8ab8f4b17b47146b7376d744d82c3717.addTo(map_28b4ae7263003af48fd43cc6abb9e683);
+        
+    
+            var marker_18cd6aef1f58a972d728ad7f1ebae589 = L.marker(
+                [32.4945, 74.5229],
+                {
+}
+            ).addTo(map_28b4ae7263003af48fd43cc6abb9e683);
+        
+    
+            var icon_405e1a1c8d72d3b54b61a842a64d0f7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd1296a1a9a9e6fc366d91a80cf4ae8a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa26fd46295a62e07f1ac37c92512b0c = $(`<div id="html_fa26fd46295a62e07f1ac37c92512b0c" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 5/8/2025<br>     <b>Time:</b> 14:30<br>     <b>Location:</b> Sialkot<br>     <b>Drone Type:</b> Suspected ISR drone<br>     <b>Source:</b> Dawn News article     </div>`)[0];
+                popup_dd1296a1a9a9e6fc366d91a80cf4ae8a.setContent(html_fa26fd46295a62e07f1ac37c92512b0c);
+            
+        
+
+        marker_18cd6aef1f58a972d728ad7f1ebae589.bindPopup(popup_dd1296a1a9a9e6fc366d91a80cf4ae8a)
+        ;
+
+        
+    
+    
+                marker_18cd6aef1f58a972d728ad7f1ebae589.setIcon(icon_405e1a1c8d72d3b54b61a842a64d0f7a);
+            
+    
+            var marker_fa59366c62bb1eb4b5b364085378a7f8 = L.marker(
+                [31.5497, 74.3436],
+                {
+}
+            ).addTo(map_28b4ae7263003af48fd43cc6abb9e683);
+        
+    
+            var icon_0adade61c601bc5044ab8398c85ed8e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3062780d5f690cb77348126d5e8a73d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1c60b02a26ddfefa8d3bfdaabc36c87f = $(`<div id="html_1c60b02a26ddfefa8d3bfdaabc36c87f" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 5/7/2025<br>     <b>Time:</b> 20:15<br>     <b>Location:</b> Lahore suburbs<br>     <b>Drone Type:</b> Quadcopter<br>     <b>Source:</b> Telegram report     </div>`)[0];
+                popup_f3062780d5f690cb77348126d5e8a73d.setContent(html_1c60b02a26ddfefa8d3bfdaabc36c87f);
+            
+        
+
+        marker_fa59366c62bb1eb4b5b364085378a7f8.bindPopup(popup_f3062780d5f690cb77348126d5e8a73d)
+        ;
+
+        
+    
+    
+                marker_fa59366c62bb1eb4b5b364085378a7f8.setIcon(icon_0adade61c601bc5044ab8398c85ed8e1);
+            
+    
+            var marker_d933dd549dd801115361ca9d20b96c98 = L.marker(
+                [29.3956, 71.6836],
+                {
+}
+            ).addTo(map_28b4ae7263003af48fd43cc6abb9e683);
+        
+    
+            var icon_028c63b29076f93cd1611111c3a7f068 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_163bd7e995bbebbdf0356af0e066c136 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff9c57ca8414e612ef0edda63def0ecd = $(`<div id="html_ff9c57ca8414e612ef0edda63def0ecd" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 5/6/2025<br>     <b>Time:</b> 9:10<br>     <b>Location:</b> Bahawalpur<br>     <b>Drone Type:</b> Loitering munition<br>     <b>Source:</b> ISPR release     </div>`)[0];
+                popup_163bd7e995bbebbdf0356af0e066c136.setContent(html_ff9c57ca8414e612ef0edda63def0ecd);
+            
+        
+
+        marker_d933dd549dd801115361ca9d20b96c98.bindPopup(popup_163bd7e995bbebbdf0356af0e066c136)
+        ;
+
+        
+    
+    
+                marker_d933dd549dd801115361ca9d20b96c98.setIcon(icon_028c63b29076f93cd1611111c3a7f068);
+            
+</script>
+</html>
